@@ -55,13 +55,17 @@ class App extends Component {
         <br/>
 
         <form id="signup" onSubmit={this.handleSubmit.bind(this)}>
-          First Name:<br/>
+          *First Name:<br/>
           <input type="text" name="firstname"/><br/><br/>
           Last Name:<br/>
           <input type="text" name="lastname"/><br/><br/>
-          Email:<br/>
+          *Email:<br/>
           <input type="text" name="email"/><br/><br/>
           <input type="submit" name="Submit"/><br/><br/>
+          <br/>
+          * Fields are required.
+          <br/>
+          <br/>
         </form>
 
       </div>
