@@ -15,3 +15,6 @@ Create a simple form with First Name, Last Name and Email (and a Submit button).
   2. Email must properly follow traditional email address format. (name@fully-qualified-domain-name)
     1. For simplicity, you will only allow .com, .net, and .org Top Level Domains
 5. Populate the results of the validation within an HTML element on the page.
+
+
+![alt text](src/One-Pager.png)
